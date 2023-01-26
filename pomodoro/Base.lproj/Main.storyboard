@@ -22,7 +22,7 @@
                                     <constraint firstAttribute="height" constant="100" id="Ycf-09-UJH"/>
                                 </constraints>
                             </imageView>
-                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W69-PO-Yna">
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W69-PO-Yna">
                                 <rect key="frame" x="24" y="263" width="345" height="60"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="50"/>
                                 <nil key="textColor"/>
@@ -78,6 +78,7 @@
                     <connections>
                         <outlet property="cancelButton" destination="mMi-M3-gYQ" id="dOV-q0-v9P"/>
                         <outlet property="datePicker" destination="B5o-QH-HO2" id="Z9L-8d-LEu"/>
+                        <outlet property="imageView" destination="i8d-dC-OtS" id="UgG-Vw-eIi"/>
                         <outlet property="progreeView" destination="bFv-AL-aB9" id="Jxf-vx-ZeT"/>
                         <outlet property="timerLabel" destination="W69-PO-Yna" id="LxL-Jj-Rqt"/>
                         <outlet property="toggelButton" destination="6RG-SD-HaO" id="ES6-A7-GXf"/>
